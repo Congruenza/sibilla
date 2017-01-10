@@ -2,11 +2,14 @@
 ---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i|Open+Sans:400,700,800');
 body {
   background-color: papayawhip;
-  color: darkgray;
+  color: #383838;
+  font-family: 'Merriweather', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: tomato;
+  font-family: 'Open Sans', sans-serif;
 }
