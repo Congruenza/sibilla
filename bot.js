@@ -10,24 +10,11 @@ var Config = require('./config');
 // LOgging in a variable.
 var T = new Twit(Config);
 
-// Loading the array
-var voc =require('./lemmi');
-// Testing the voc
-console.log("We have just loaded " + voc.lemmi.length + " words… 😱 \n");
-
-// Twitting stuff.
-
-// Setting the interval.
- var int = 1000*60*30;
- var ord = 0;
-
 tweetIt();
-setInterval( tweetIt, int);
-
 
 function tweetIt(){
 	var tweet = {
-	status: "🤖 -> Ho appena #pensato che #" + voc.lemmi[ord] + " fa #schifo \n #bot" ,
+	status: " " ,
 	};
 	console.log(voc.lemmi[ord]);
 	ord += 1;
