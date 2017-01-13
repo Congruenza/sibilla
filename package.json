@@ -1,0 +1,22 @@
+{
+  "name": "sibilla",
+  "version": "1.0.0",
+  "description": "sound bot ",
+  "main": "sibilla.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanbinkimoon/sibilla.git"
+  },
+  "author": "nicola bertelloni & jacopo panfili",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/wanbinkimoon/sibilla/issues"
+  },
+  "homepage": "https://wanbinkimoon.github.io/sibilla/",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
+}
